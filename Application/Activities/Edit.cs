@@ -32,7 +32,7 @@ namespace Application.Activities
 
                 _mapper.Map(request.Activity, activity);
 
-               //set manual
+               //set manual dedicated object piece
                // activity.Title = request.Activity.Title ?? activity.Title;
 
                 await _context.SaveChangesAsync();
