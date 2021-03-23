@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container, Dimmer, Loader, Menu } from 'semantic-ui-react';
+import { Dimmer, Loader} from 'semantic-ui-react';
 
 interface Props {
 
